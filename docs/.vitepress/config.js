@@ -4,7 +4,9 @@ export default defineConfig({
     lang: 'zh-CN',
     title: 'happyboot-tiger',
     description: 'happyboot-tiger用户使用文档',
-    head: [['link', {rel: 'icon', href: '/logo.png'}]],
+    head: [
+        ['link', {rel: 'icon', href: '/logo.png'}],
+    ],
     lastUpdated: true,
     themeConfig: {
         logo: '/logo.png',
