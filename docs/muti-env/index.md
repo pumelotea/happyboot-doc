@@ -43,7 +43,7 @@
 
 框架基于`vite2`环境文件`.evn.xxxx`实现多环境的实现。
 
-### 基础
+## 基础
 在项目结构根目录下，默认提供了3个环境文件
  
 - `.env.dev` 开发环境
@@ -65,7 +65,7 @@ VITE_APP_API = 'https://api.xxx.cn'
 环境变量的具体文档需要查阅[vite2的官方文档](https://vitejs.cn/guide/env-and-mode.html)
 :::
 
-### 环境变量使用
+## 环境变量使用
 
 - [axios配置](https://github.com/pumelotea/happyboot-tiger/blob/master/src/global/http/index.js#L26) 
 ```js
@@ -80,7 +80,7 @@ const axios = Axios.create({
 const foo = import.meta.env['foo']
 ```
 
-### 编译配置
+## 编译配置
 
 修改构建脚本
 
