@@ -6,6 +6,8 @@ export default defineConfig({
     description: 'happyboot-tiger用户使用文档',
     head: [
         ['link', {rel: 'icon', href: '/logo.png'}],
+        ['script', {charset: 'UTF-8',id:'LA_COLLECT', src: '//sdk.51.la/js-sdk-pro.min.js'}],
+        ['script',{},'LA.init({id: "JpXJIOM7fbVSeuut",ck: "JpXJIOM7fbVSeuut"})']
     ],
     lastUpdated: true,
     themeConfig: {
