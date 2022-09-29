@@ -22,16 +22,22 @@ hero:
 
 
 features:
-- title: Vue3
+- icon: 🤔️
+  title: Vue3
   details: 基于vue3js
-- title: Vite2
+- icon: ⚡️
+  title: Vite2
   details: 使用vite作为构建工具，极速启动
-- title: JavaScript
+- icon: ⌨
+  title: JavaScript
   details: 简单，更加适合小团队
-- title: HappyKit
+- icon: 🛠
+  title: HappyKit
   details: 基于admin框架核心引擎，屏蔽重复代码
-- title: 路由注入
+- icon: 💎
+  title: 路由注入
   details: 支持运行时从服务器加载路由表装载
-- title: 路由缓存
+- icon: 🪄
+  title: 路由缓存
   details: 支持保持页面状态，支持删除缓存
 ---
