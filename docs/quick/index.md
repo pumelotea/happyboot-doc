@@ -1,6 +1,3 @@
----
-layout: doc
----
 <style>
 :root {
     --vp-c-brand: #646cff;
@@ -45,7 +42,20 @@ layout: doc
 
 # 快速上手
 
-### 下载并运行
+## 项目地址
+
+
+<p style="display: flex">
+<img style="margin-right: 10px" src="https://img.shields.io/github/last-commit/pumelotea/happyboot-tiger?style=flat-square"/>
+<img style="margin-right: 10px" src="https://img.shields.io/github/stars/pumelotea/happyboot-tiger?style=flat-square"/>
+<img style="margin-right: 10px" src="https://img.shields.io/github/forks/pumelotea/happyboot-tiger?style=flat-square"/>
+<img style="margin-right: 10px" src="https://img.shields.io/github/issues/pumelotea/happyboot-tiger?style=flat-square"/>
+<img src="https://img.shields.io/github/license/pumelotea/happyboot-tiger?style=flat-square"/>
+</p>
+
+[https://github.com/pumelotea/happyboot-tiger](https://github.com/pumelotea/happyboot-tiger)
+
+## 下载并运行
 ```shell
 git clone -b master https://github.com/pumelotea/happyboot-tiger.git
 cd happyboot-tiger
@@ -53,7 +63,7 @@ yarn
 yarn dev 
 ```
 
-### 后端接口地址配置
+## 后端接口地址配置
 修改工程根目录下的`.env.dev`文件，更换`VITE_APP_API`的值，替换为后端服务的地址。
 ```
 NODE_ENV = 'development'
@@ -80,11 +90,11 @@ export default {
 
 ```
 
-### 菜单数据对接
+## 菜单数据对接
 对于菜单的数据结构设计基本上是树形结构的，但是每一位设计者设计出来的结构字段肯定都是不同的，因此需要开发者编写一个适配器，适配器的类型定义也会给出。
 下面会给出菜单结构、转换器的定义和参考数据。
 
-#### 菜单数据结构定义
+### 菜单数据结构定义
 ```js
 /**
  * 菜单类型
@@ -136,7 +146,7 @@ declare interface MenuAdapter<T> {
   };
 }
 ```
-#### 开发菜单数据适配器
+### 开发菜单数据适配器
 
 ```js
 /**
@@ -281,15 +291,15 @@ function createMenuAdapter () {
 }
 ```
 
-#### 菜单适配器参考
+### 菜单适配器参考
 [https://github.com/pumelotea/happyboot-tiger/blob/master/src/global/framework.js](https://github.com/pumelotea/happyboot-tiger/blob/master/src/global/framework.js)
 
 
-#### 菜单数据参考
+### 菜单数据参考
 [https://github.com/pumelotea/happyboot-tiger/blob/master/src/mock/routerData.js](https://github.com/pumelotea/happyboot-tiger/blob/master/src/mock/routerData.js)    
 如果使用上述链接中的数据结构，那么适配器就可以使用默认实现的。
 
-#### 使用菜单适配器
+### 使用菜单适配器
 在引擎创建时候作为参数传入即可
 ```js
 const happyFramework = createHappyFramework({
@@ -297,7 +307,7 @@ const happyFramework = createHappyFramework({
 })
 ```
 
-#### 修改数据加载方法
+### 修改数据加载方法
 框架中默认是用`Promise`模拟的异步数据获取，实际使用是要调用接口的。那么以下代码换成常规的HTTP请求即可。
 
 
@@ -334,7 +344,7 @@ interceptorType: 'before',
 请求返回的数据最终会调用**菜单适配器**进行数据格式转换，并且自动完成路由的注入。
 :::
 
-#### 接口请求token拦截处理
+### 接口请求token拦截处理
 对于http请求token失效的处理定义在该文件中`src/global/http/index.js`
 :::tip 提示
 http请求的返回结构默认约定为：
@@ -361,9 +371,9 @@ const responseHandle = {
 }
 ```
 
-### 用户数据对接
+## 用户数据对接
 
-#### 登录
+### 登录
 用户数据对接指的是用户的登录，常规调用接口登录完成后，调用以下方法进行框架登录。
 ```js
 happySecurity.signIn("tokensring",{id:"123",name:"xiaoming"})

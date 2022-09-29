@@ -49,6 +49,14 @@ layout: doc
 [https://tiger.happykit.org/](https://tiger.happykit.org/)
 
 ### 项目地址
+<p style="display: flex">
+<img style="margin-right: 10px" src="https://img.shields.io/github/last-commit/pumelotea/happyboot-tiger?style=flat-square"/>
+<img style="margin-right: 10px" src="https://img.shields.io/github/stars/pumelotea/happyboot-tiger?style=flat-square"/>
+<img style="margin-right: 10px" src="https://img.shields.io/github/forks/pumelotea/happyboot-tiger?style=flat-square"/>
+<img style="margin-right: 10px" src="https://img.shields.io/github/issues/pumelotea/happyboot-tiger?style=flat-square"/>
+<img src="https://img.shields.io/github/license/pumelotea/happyboot-tiger?style=flat-square"/>
+</p>
+
 [https://github.com/pumelotea/happyboot-tiger](https://github.com/pumelotea/happyboot-tiger)
 
 ## 运行效果

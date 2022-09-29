@@ -52,7 +52,10 @@
 ### 框架引擎
 - happykit:2.2.0
 
-[![image](https://img.shields.io/npm/v/happykit)](https://www.npmjs.com/package/happykit) [![image](https://img.shields.io/github/last-commit/pumelotea/happykit-next)](https://github.com/pumelotea/happykit-next)
+<p style="display: flex">
+<img style="margin-right: 10px" src="https://img.shields.io/npm/v/happykit?style=flat-square"/>
+<img src="https://img.shields.io/github/last-commit/pumelotea/happykit-next?style=flat-square"/>
+</p>
 
 
 框架引擎作为独立项目单独维护，有利于更换框架UI库
