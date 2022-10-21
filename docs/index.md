@@ -41,3 +41,8 @@ features:
   title: 路由缓存
   details: 支持保持页面状态，支持删除缓存
 ---
+
+<div style="display: flex;justify-content: center;margin-top: 50px;flex-wrap: wrap;width: 100%">
+<img width="260" src="/images/dingding.jpg" style="border: 1px solid rgba(128,128,128,0.2);border-radius: 20px;margin:20px;box-shadow: rgb(0 0 0 / 10%) 0px 8px 20px 9px">
+<img width="260" src="/images/wx.jpg" style="border: 1px solid rgba(128,128,128,0.2);border-radius: 20px;margin:20px;box-shadow: rgb(0 0 0 / 10%) 0px 8px 20px 9px">
+</div>
