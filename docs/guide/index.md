@@ -31,7 +31,7 @@ layout: doc
 ## 核心技术
 ### vue3
 渐进式 JavaScript 框架,易学易用，性能出色，适用场景丰富的 Web 前端框架。
-### vite2
+### vite5
 下一代前端开发与构建工具，启动速度快。
 
 ### happykit

@@ -4,7 +4,7 @@ layout: home
 hero:
     name: HappyBoot
     text: Tiger
-    tagline: 一个中后端框架Vite2+Vue3+HappyKit+NaiveUI 
+    tagline: 一个中后端框架Vite2+Vue5+HappyKit+NaiveUI 
     image:
         src: /logo-shadow.png
         alt: VitePress
@@ -26,7 +26,7 @@ features:
   title: Vue3
   details: 基于vue3js
 - icon: ⚡️
-  title: Vite2
+  title: Vite5
   details: 使用vite作为构建工具，极速启动
 - icon: ⌨
   title: JavaScript
