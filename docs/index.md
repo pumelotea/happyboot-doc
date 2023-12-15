@@ -4,7 +4,7 @@ layout: home
 hero:
     name: HappyBoot
     text: Tiger
-    tagline: 一个中后端框架Vite2+Vue5+HappyKit+NaiveUI 
+    tagline: 一个中后端框架Vite5+Vue3+HappyKit+NaiveUI 
     image:
         src: /logo-shadow.png
         alt: VitePress
