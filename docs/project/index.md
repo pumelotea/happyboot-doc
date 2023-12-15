@@ -246,8 +246,6 @@
 ├── .gitignore #git提交忽略文件
 ├── .eslintrc.js #eslint配置
 ├── .nojekyll #github pages忽略模板
-├── vite.config.js
+├── vite.config.mjs
 ├── webpack.config.js
-└── yarn.lock #包管理器依赖锁定文件
-
 ```

@@ -17,8 +17,8 @@
 ```shell
 git clone -b master https://github.com/pumelotea/happyboot-tiger.git
 cd happyboot-tiger
-yarn
-yarn dev 
+pnpm
+pnpm dev 
 ```
 
 ## 后端接口地址配置

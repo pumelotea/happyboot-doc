@@ -6,19 +6,19 @@
 有时候需要在本地运行正式编译后的产物，那么可以借助于vite的预览能力实现。
 
 ```shell
-yarn build-test #取决于package.json中scripts字段中的配置
-yarn preview
+pnpm build-test #取决于package.json中scripts字段中的配置
+pnpm preview
 ```
 
 
 ## 测试环境发布
 ```shell
-yarn build-test
+pnpm build-test
 ```
 
 ## 生产环境发布
 ```shell
-yarn build-prod
+pnpm build-prod
 ```
 
 ## 自定义环境发布
