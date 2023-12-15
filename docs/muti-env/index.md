@@ -21,7 +21,7 @@ VITE_APP_API = 'https://api.xxx.cn'
 更多的环境变量可以自行扩展。
 
 :::tip 提示
-环境变量的具体文档需要查阅[vite5的官方文档](https://vitejs.cn/guide/env-and-mode.html)
+环境变量的具体文档需要查阅[vite5的官方文档](https://cn.vitejs.dev/)
 :::
 
 ## 环境变量使用
